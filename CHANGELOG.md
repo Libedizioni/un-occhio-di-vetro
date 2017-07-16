@@ -8,6 +8,4 @@
 - Add funders to intro text files
 
 **v0.1.0**
-
-
 - init base book repository
