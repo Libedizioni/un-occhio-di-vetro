@@ -2,6 +2,9 @@
 #### _changelog & history_
 
 
+**v0.1.2**
+- Remove sed auto-generated file
+
 **v0.1.1**
 - Add initial fonts
 - Add initial images
