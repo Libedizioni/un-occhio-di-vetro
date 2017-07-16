@@ -1,0 +1,17 @@
+{+CENTER+}
+{NEWLINE}
+{NEWLINE}
+{NEWLINE}
+{+COMPACT SMALLER BLOCK+}
+
+La traduzione di quest’opera è stata realizzata con il contributo di
+
+Istituto Basco Etxepare - Etxepare Euskal Institutua
+{NEWLINE}
+{NEWLINE}
+![logo-etxepare](/media/mare/DATI/0-WEB-DEVELOP-0/LIBEDIZIONI/EBOOKS_REPOS/un-occhio-di-vetro/inc/images/etxe-logo.jpg)
+
+{-COMPACT SMALLER BLOCK-}
+{-CENTER-}
+
+{NEWPAGE}
