@@ -1,0 +1,46 @@
+# Automatically normalize line endings for all text-based files
+# https://git-scm.com/docs/gitattributes#_end_of_line_conversion
+
+* text=auto
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# For the following file types, normalize line endings to LF on
+# checkin and prevent conversion to CRLF when they are checked out
+# (this is required in order to prevent newline related issues like,
+# for example, after the build script is run)
+
+.*      text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+*.js    text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.php   text eol=lf
+*.sh    text eol=lf
+*.scss  text eol=lf
+*.txt   text eol=lf
+*.xml   text eol=lf
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Files to exclude when creating archive.
+
+.bowerrc
+.git export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+.gitmodules export-ignore
+.jscsrc export-ignore
+.jshintignore export-ignore
+bower.json
+CHANGELOG.md export-ignore
+codesniffer.ruleset.xml export-ignore
+Gruntfile.js export-ignore
+package.json export-ignore
+
+# Folders to exclude when creating archive.
+
+/grunt
+/src
+/scss

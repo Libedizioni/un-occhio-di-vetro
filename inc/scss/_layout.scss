@@ -1,0 +1,234 @@
+///
+/// General elements layout
+///
+
+
+// Include fonts with @font-face mixin
+// Usage: font-face( $font-family-name, $file-name, $style: '', $weight: '' )
+@include font-face( Raleway, Raleway-Regular );
+@include font-face( Raleway, Raleway-Italic, italic );
+@include font-face( Raleway, Raleway-SemiBold, normal, 600 );
+@include font-face( Raleway, Raleway-SemiBoldItalic, italic, 600 );
+@include font-face( Josefin Sans, JosefinSans-Regular );
+@include font-face( Josefin Sans, JosefinSans-SemiBold, normal, 600 );
+@include font-face( Source Code Pro, SourceCodePro-Light, normal, 300 );
+@include font-face( Source Code Pro, SourceCodePro-Regular );
+
+html,
+body {
+	font-family: $base_font;
+	font-size: $base_font_size;
+	line-height: $base_line_height;
+	text-align: justify;
+}
+
+a {
+	color: $link_color;
+}
+
+b,
+strong {
+	font-weight: 600;
+}
+
+i,
+em {
+	font-style: italic;
+}
+
+p {
+	font-family: $base_font;
+	color: $text_color;
+	// sets a minimum number of characters before and after the break
+	// hyphenate-lines: 3;
+	// cleaning up the ragged lines and breaks
+	// hyphens: auto;
+	// non-standart css for webkit
+	// word-break: break-word;
+	// word-wrap: break-word;
+}
+
+/**
+ * Remove margins between paragraphs
+ */
+.compact,
+.compact p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p + p {
+	margin-top: 0;
+	text-indent: 1.3em;
+	// @TODO check newpage indent (occurring when reading in google play books)
+}
+
+hr {
+	visibility: hidden;
+}
+
+
+/**
+ * Headings
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $heading_font;
+}
+
+h1 {
+	font-size: 1.65em;
+	text-align: left;
+
+	&.title {
+		font-size: 2.2em;
+		font-weight: 600;
+		margin-top: 2.2em;
+		text-align: center;
+	}
+}
+
+h2 {
+	&.author {
+		font-size: 1.2em;
+		font-weight: 400;
+		margin-top: 2.2em;
+		text-align: center;
+	}
+}
+
+h3 {
+	&.date {}
+}
+
+.hidden > h1 {
+	visibility: hidden;
+	height: 0;
+}
+
+
+/**
+ * Text dimension controls
+ */
+.smaller,
+.smaller p {
+	font-size: .78em;
+}
+
+.small,
+.small p {
+	font-size: .87em;
+}
+
+.big,
+.big p {
+	font-size: 1.12em;
+}
+
+.bigger,
+.bigger p {
+	font-size: 1.25em;
+}
+
+.monospace {
+	padding: 0 2.5%;
+
+	p {
+		font-family: $mono_font;
+		font-size: .9em;
+		font-weight: 300;
+		text-indent: 0;
+		line-height: 1.25em;
+		letter-spacing: -1pt;
+	}
+}
+
+.condensed {
+    // padding: 0 2.5%;
+
+    p {
+        font-family: $small_font;
+        font-size: .9em;
+        font-weight: 300;
+        text-indent: 0;
+        line-height: 1.15em;
+        // letter-spacing: -1pt;
+    }
+}
+
+/**
+ * Blockquotes and Citations formatting
+ */
+blockquote {
+	color: $dark_gray;
+	font-style: italic;
+	line-height: 1.25;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 5%;
+}
+
+.citation {
+	font-weight: 600;
+	font-size: .75em;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 5%;
+	padding-top: .5em;
+
+	p {
+		color: $dark_gray;
+		text-indent: 0;
+		line-height: 1.25;
+	}
+}
+
+
+/**
+ * Page and Sections Layout
+ */
+.odd {
+
+}
+
+.even {
+
+}
+
+/**
+ * Force or avoid a page break
+ */
+.breakpage {
+	page-break-before: always;
+}
+
+.no-break {
+	page-break-inside: avoid;
+}
+
+/**
+ * Helper classes
+ */
+.alignleft {
+	text-align: left;
+}
+
+.alignright {
+	text-align: right;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.linepush {
+	text-indent: 1.3em;
+}
+
+.linepull {
+	text-indent: 0;
+}

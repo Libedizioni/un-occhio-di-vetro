@@ -1,0 +1,17 @@
+<dc:creator opf:file-as="Agur Meabe, Miren" opf:role="aut">Miren Agur Meabe</dc:creator>
+<dc:creator opf:file-as="translator" opf:role="trl">Roberta Gozzi</dc:creator>
+<dc:creator opf:file-as="cover" opf:role="cov">Chi fa la cover?</dc:creator>
+<dc:contributor opf:file-as="design" opf:role="edt">Aloña Intxaurrandieta</dc:contributor>
+<dc:contributor opf:file-as="layout" opf:role="bkp">Marcello Liberato</dc:contributor>
+<dc:contributor opf:file-as="publisher" opf:role="pbl">Libe Edizioni</dc:contributor>
+<dc:language xsi:type="http://purl.org/dc/terms/ISO639-2">ita</dc:language>
+<dc:date opf:event="publication">2017</dc:date>
+<dc:publisher>Libe Edizioni</dc:publisher>
+<dc:identifier opf:scheme="isbn">BOOK_ISBN</dc:identifier>
+<dc:description>Un occhio di vetro è il nuovo libro di M.A. Meabe tradotto dall'euskara all'italiano da Roberta Gozzi e pubblicato da Libe Edizioni.</dc:description>
+<dc:subject xsi:type="http://purl.org/dc/terms/LCSH">Letteratura</dc:subject>
+<dc:subject xsi:type="http://purl.org/dc/terms/LCSH">Euskara</dc:subject>
+<dc:type>Text</dc:type>
+<dc:format>epub</dc:format>
+<dc:rights>© 2017 Associazione Culturale Libe Edizioni - Roma, Creative Commons Attribution-ShareAlike 4.0 International - CC By-Sa 4.0</dc:rights>
+<dc:rights>https://creativecommons.org/licenses/by-sa/4.0/legalcode</dc:rights>

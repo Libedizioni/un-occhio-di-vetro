@@ -1,0 +1,93 @@
+# -----------------------------
+# ignore different IDE's files
+# -----------------------------
+*.pydevproject
+.project
+.metadata
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
+nbproject/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# -------------------------------
+# ignore OS auto-generated files
+# -------------------------------
+[Tt]humbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*.DS_store
+.DS_store?
+
+# ---------------------------
+# Others used on file shares
+# ---------------------------
+bin/
+tmp/
+*.tmp
+*.bak
+*.log
+*.[Cc]ache
+*.cpr
+*.orig
+*.php.in
+.idea/
+temp/
+._*
+.Trashes
+$RECYCLE.BIN/
+
+#    - ignore all files starting with . or ~
+.*
+~*
+#    - ignore .svn files and rb config
+.svn
+.rb
+#    - ignore .doc and .docx files
+*.doc
+*.docx
+#    - ignore sass cache stuff
+.sass-cache
+prepros.cfg
+*.cfg
+
+# ------------------------
+# BEGIN Whitelisted Files
+# ------------------------
+
+# track these files, if they exist
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.gitmodules
+!.jscsrc
+!.sass-lint.yml
+!README.md
+!CHANGELOG.md
+!package.json
+
+# ---------------------------
+# E-Book develoment excusions
+# ---------------------------
+
+# ignore node dependency directories (used by grunt)
+node_modules/*
+# ignore build folder
+build
+build/*
+# ignore filters until FIXME needed
+filters
+filters/*
+# ignore compiled expanded style.css file but track .scss files
+*.css
+*.css.map
+!book-config-sample.json

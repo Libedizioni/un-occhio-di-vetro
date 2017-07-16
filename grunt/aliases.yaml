@@ -1,0 +1,99 @@
+# Grunt aliases for Minimal Framework.
+---
+# ------------------------------------ #
+#    BOOK ASSETS WORKFLOW TASKS        #
+# ------------------------------------ #
+#     - compile SCSS and minify CSS    #
+#     - minify and resize images       #
+# ------------------------------------ #
+# CSS compile and minify tasks
+# ----------------------------
+'styles':
+- 'sass'
+- 'postcss'
+- 'cssnano'
+
+# Images compression and resize tasks
+# -----------------------------------
+'imagemin_newer':
+- 'newer:imagemin'
+'resize_images':
+- 'responsive_images:cover'
+- 'responsive_images:figures'
+
+
+# --------------------------------------- #
+#   SHELL TASKS: BUILD & SCAFFOLD A BOOK  #
+# --------------------------------------- #
+#     - test_dependencies                 #
+#     - build_epub                        #
+#     - build_html                        #
+#     - build_pdf                         #
+#     - build_ebook                       #
+#     - scaffold new book project         #
+# --------------------------------------- #
+# check for required dependencies
+# --------------------------------------- #
+'test_dependencies':
+- 'shell:test_dependencies'
+# --------------------------------------- #
+# build single ebook formats
+# --------------------------------------- #
+'single_epub':
+- 'shell:prepare_markdown'
+- 'shell:process_markdown_edits'
+- 'shell:build_epub'
+'single_html':
+- 'shell:prepare_markdown'
+- 'shell:process_markdown_edits'
+- 'shell:build_html'
+'single_pdf':
+- 'shell:prepare_markdown'
+- 'shell:process_markdown_edits'
+- 'shell:build_pdf'
+
+
+# ------------------------------------------------- #
+# Scaffold a new ebook project with ebook-generator
+# ------------------------------------------------- #
+'scaffold_new_ebook':
+- 'shell:mkdir_scaffold_ebook'
+- 'copy:scaffold'
+- 'shell:search_replace_intro'
+- 'shell:search_replace_metadata'
+- 'shell:search_replace_booktitle'
+- 'shell:search_replace_style'
+- 'shell:search_replace_changelog_script'
+- 'shell:replace_readme'
+- 'shell:init_book_git_repo'
+
+
+# --------------------------- #
+#   COMPILE EBOOK ASSETS &    #
+#   COMPILE EBOOK SOURCES &   #
+#   BUILD EBOOK FORMATS       #
+# --------------------------- #
+'assets':
+- 'styles'
+- 'responsive_images:cover'
+- 'imagemin_newer'
+'sources':
+- 'shell:search_replace_intro'
+- 'shell:search_replace_metadata'
+- 'shell:search_replace_booktitle'
+- 'shell:search_replace_style'
+- 'shell:test_dependencies'
+- 'shell:prepare_markdown'
+- 'shell:process_markdown_edits'
+'build':
+- 'shell:build_epub'
+- 'shell:build_html'
+- 'shell:build_pdf'
+
+# --------------------------- #
+#   DEFAULT TASK
+# --------------------------- #
+default:
+- 'assets'
+- 'sources'
+- 'build'

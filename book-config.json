@@ -1,0 +1,95 @@
+{
+  "title": "Un occhio di vetro",
+  "name": "un-occhio-di-vetro",
+  "description": "Un occhio di vetro è il nuovo libro di M.A. Meabe tradotto dall'euskara all'italiano da Roberta Gozzi e pubblicato da Libe Edizioni.",
+  "author": {
+    "name": "Miren",
+    "surname": "Agur Meabe",
+    "email": "edizioni-libe@gmail.com",
+    "url": ""
+  },
+  "translator": {
+    "name": "Roberta Gozzi",
+    "email": "rrgozzi@gmail.com",
+    "url": ""
+  },
+  "editor": {
+    "cover": {
+      "name": "Chi fa la cover?",
+      "email": "",
+      "url": ""
+    },
+    "design": "Aloña Intxaurrandieta",
+    "layout": "Marcello Liberato"
+  },
+  "publisher": {
+    "name": "Libe Edizioni",
+    "link": "libedizioni.it",
+    "url": "http://www.libedizioni.it",
+    "logo": "/media/mare/DATI/0-WEB-DEVELOP-0/LIBEDIZIONI/EBOOKS_REPOS/un-occhio-di-vetro/inc/images/logo.jpg",
+    "repository": "https://github.com/Libedizioni",
+    "email": "edizioni-libe@gmail.com",
+    "isbn": {
+      "epub": "",
+      "pdf": "",
+      "mobi": ""
+    },
+    "copyright": "Associazione Culturale Libe Edizioni - Roma",
+    "language": "ita",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International - CC By-Sa 4.0",
+    "legalcode": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+  },
+  "original": {
+    "title": "Kristalezko begi bat",
+    "publisher": "Susa",
+    "year": "2013",
+    "email": "",
+    "url": ""
+  },
+  "tags": {
+    "one": "Letteratura",
+    "two": "Euskara",
+    "three": "Narrativa",
+    "four": "",
+    "five": "",
+    "six": ""
+  },
+
+
+  "version": "0.6.4",
+  "cover": "inc/images/cover.jpg",
+  "fonts": "inc/fonts",
+  "images": "inc/images",
+  "tocdepth": "2",
+  "toctitle": "Indice",
+  "metadata": "inc/metadata.xml",
+  "booktitle": "inc/title.yaml",
+  "css": "inc/style.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Libedizioni/un-occhio-di-vetro",
+    "remote": "git@github.com:Libedizioni/un-occhio-di-vetro",
+    "user": {
+      "name": "Codice Ovvio",
+      "email": "codiceovvio@gmail.com"
+    },
+    "license": "GNU General Public License v3 or later",
+    "licenseuri": "https://www.gnu.org/licenses/gpl-3.0.html"
+  },
+  "path": {
+    "src": "src",
+    "docx": "src/docx",
+    "intro": "src/intro",
+    "sass": "inc/scss",
+    "build": "build"
+  },
+  "templates": {
+    "epub": "templates/epub/libe.epub",
+    "epub3": "templates/epub/default.epub3",
+    "pdf": "templates/pdf/libe-novel.tex",
+    "latex": "templates/pdf/default.latex",
+    "html": "templates/default.html",
+    "html5": "templates/default.html5"
+  },
+  "license": "CC By-Sa 4.0"
+}

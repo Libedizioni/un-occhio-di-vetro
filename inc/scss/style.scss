@@ -1,0 +1,104 @@
+/*
+E-book Title:       Un occhio di vetro
+E-book URI:         https://github.com/Libedizioni/un-occhio-di-vetro
+E-book Editor URI:  https://github.com/Libedizioni
+E-book Description: Un occhio di vetro è il nuovo libro di M.A. Meabe tradotto dall'euskara all'italiano da Roberta Gozzi e pubblicato da Libe Edizioni.
+E-book Version:     0.1.0
+E-book License:     Creative Commons Attribution-ShareAlike 4.0 International - CC By-Sa 4.0
+E-book License URI: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Code License:       GNU General Public License v3 or later
+Code License URI:   https://www.gnu.org/licenses/gpl-3.0.html
+
+This E-book is licensed under a Creative Commons Attribution-ShareAlike 4.0 International - CC By-Sa 4.0
+All the code needed to produce and publish the E-book is licensed under a GNU General Public License v3 or later
+
+All included fonts and webfonts from GoogleFonts and distributed
+under the terms of the SIL OFL 1.1 license, http://scripts.sil.org/OFL
+*/
+
+/*--------------------------------------------------------------
+TABLE OF CONTENTS:
+----------------------------------------------------------------
+# 1.0 - Importing Partials
+    ## 1.1 - Sass colors
+    ## 1.2 - Sass variables
+    ## 1.3 - Sass functions
+    ## 1.4 - Typography
+    ## 1.5 - Mixins
+# 2.0 - Base Layout
+    ## 2.1 - Headings
+    ## 2.2 - Table of Contents
+    ## 2.3 - Images
+    ## 2.4 - Tables
+    ## 2.5 - Foot Notes
+    ## 2.6 - Footer
+    ## 2.6 - Custom ebook styles
+--------------------------------------------------------------*/
+
+// -----------------------------------------------------------------------------
+// 1.0 Importing Partials
+//
+// These files are needed at the beginning so that we establish all
+// our mixins, functions, and variables that we'll be using across
+// the whole project.
+// ----------------------------------------------------------------------------------
+
+// 1.1 - Sass Colors
+// ---------------------------------
+@import 'tools/colors';
+
+// 1.2 - Sass variables
+// ---------------------------------
+@import 'tools/variables';
+
+// 1.3 - Sass functions
+// ---------------------------------
+@import 'tools/functions';
+
+// 1.4 - Setup Typography
+// ---------------------------------
+@import 'tools/typography';
+
+// 1.5 - Import all mixins
+// ---------------------------------
+@import 'tools/mixins';
+
+
+// -----------------------------------------------------------------------------
+// 2.0 - Base Layout
+//
+// All Page and Containers layout styles are defined here.
+// Containers and semantic elements are defines following a visual
+// page tree as guide, thus defining main containers and nesting
+// sub-component styles, and footnotes and footer at the end.
+// Included here are also some helper classes.
+// -----------------------------------------------------------------------------
+@import 'layout';
+
+// 2.1 - Page Headings & Titles
+// ---------------------------------
+@import 'headings';
+
+// 2.2 - Table of contents
+// ---------------------------------
+@import 'toc';
+
+// 2.3 - Images
+// ---------------------------------
+@import 'images';
+
+// 2.4 - Tables
+// ---------------------------------
+@import 'tables';
+
+// 2.5 - Foot Notes
+// ---------------------------------
+@import 'footnotes';
+
+// 2.6 - Footer
+// ---------------------------------
+@import 'footer';
+
+// 2.7 - Custom ebook styles
+// ---------------------------------
+@import 'book';

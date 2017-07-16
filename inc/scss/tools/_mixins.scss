@@ -1,0 +1,174 @@
+/// Better Media Queries mixin
+/// Provides a quick shortcut to target `@media only screen and ( min-width: px )` on specified size as argument.
+/// Default media-queries implemented in stylesheet are:
+/// - mq(320)    Average mobile devices from 320 pixels up:
+///              This is for base mobile devices like Samsung or iPhones in portrait mode.
+///              It overrides few styles declared in base.
+/// - mq(481)    Larger mobile devices from 481 pixels up:
+///              This is for devices like the Galaxy Note or something that's
+///              larger than an iPhone but smaller than a tablet.
+/// - mq(651)    Smaller tablets from 651 pixels up:
+///              This is for those devices in-between by a mobile phone and
+///              a tablet, like some versions of Kindle or Samsungs.
+/// - mq(768)    Tablets and mini-Laptops from 768 pixels up:
+///              This is for the base tablet layout in portrait mode. Devices
+///              like iPads or others as well, and for those weird micro notebooks.
+/// - mq(981)    Larger Tablets and small laptops from 981 pixels up:
+///              This is for the base tablet layout in landscape mode. Devices
+///              like iPads or others as well, also for smaller notebooks.
+/// - mq(1024)   Desktop screens from 1024 pixels up:
+///              This is the average viewing window. So Desktops, Laptops, and
+///              in general anyone not viewing on a mobile device. Here's where
+///              you can add resource intensive styles.
+/// - mq(1240)   Larger desktop sizes from 1240 pixels up:
+///              This is for larger monitors and Laptops, and possibly full screen viewers.
+///              A lot of Desktop and Laptop devices, like Apple ones, reside here.
+///              May be not useful in some cases; if you wish you can delete it.
+/// - mq(1600)   Largest HD screens or desktop from 1600 pixels up:
+///              This is for very large or HD monitors, starting at 1600 but basically
+///              targeting 1920 monitors or HD televisions. May be not useful in many
+///              cases; if you wish you can delete this one too.
+///
+///
+/// @author   Landon Schropp
+/// @link     https://davidwalsh.name/write-media-queries-sass
+/// David Walsh article on sass media-queries
+/// @link https://css-tricks.com/approaches-media-queries-sass/
+/// Also a good review of different tecniques here
+///
+/// @param    { int }    $size    min-width in pixels
+/// @example  scss - Usage
+///           .element {
+///               font-size:16px;
+///
+///               @include mq( 768 ) {
+///                   font-size:18px;
+///               }
+///               @include mq( 981 ) {
+///                   font-size:14px;
+///               }
+///           }
+/// @example  css - CSS Output
+///           .element {
+///               font-size:16px;
+///           }
+///           @media only screen and ( min-width: 768px ) {
+///               .element {
+///                   font-size:18px;
+///               }
+///           }
+///           @media only screen and ( min-width: 981px ) {
+///               .element {
+///                   font-size:14px;
+///               }
+///           }
+///
+/// @require  { @content } reference function
+/// @output   `media-query`
+/// @group    mixins
+@mixin mq( $size ) {
+	@media only screen and ( min-width: ( $size + #{px} ) ) {
+		@content;
+	}
+}
+
+//// Retina ( 2x resolution devices )
+/// --------------------------------
+///     This applies to the retina iPhone (4s) and iPad (2,3) along with
+///     other displays with a 2x resolution. You can also create a media
+///     query for retina AND a certain size if needed.
+///
+/// @group    mixins
+@mixin retina {
+	@media
+		only screen and (-webkit-min-device-pixel-ratio: 2),
+		only screen and (min--moz-device-pixel-ratio: 2),
+		only screen and (-o-min-device-pixel-ratio: 2 / 1),
+		only screen and (min-device-pixel-ratio: 2),
+		only screen and (min-resolution: 192dpi),
+		only screen and (min-resolution: 2dppx) {
+	@content;
+	}
+}
+
+/// Print styles
+/// ------------
+///     Feel free to customize this. Remember to add things that won't make
+///     sense to print at the bottom. Things like nav, ads, and forms should
+///     be set to display none.
+///
+/// @group    mixins
+@mixin print {
+	@media print {
+		@content;
+	}
+}
+
+/// Font face
+/// ---------
+/// Shorthand to setup one or multiple @font-face declarations with just one-line
+///
+/// @param    { int }    $size    min-width in pixels
+/// @example  scss - Usage
+///           @include font-face( Josefin Sans, Josefin Sans-Regular );
+///           @include font-face( Josefin Sans, Josefin Sans-Italic, italic );
+///           @include font-face( Josefin Sans, Josefin Sans-SemiBoldItalic, italic, 600 );
+/// @example  css - CSS Output
+///           @font-face {
+///               font-family: "Josefin Sans";
+///               font-style: normal;
+///               font-weight: normal;
+///               src: url("fonts/Josefin Sans-Regular.ttf");
+///           }
+///           @font-face {
+///               font-family: "Josefin Sans";
+///               font-style: italic;
+///               font-weight: normal;
+///               src: url("fonts/Josefin Sans-Italic.ttf");
+///           }
+///           @font-face {
+///               font-family: "Josefin Sans";
+///               font-style: italic;
+///               font-weight: 600;
+///               src: url("fonts/Josefin Sans-SemiBoldItalic.ttf");
+///           }
+///
+/// @require  { @content } reference function
+/// @output   `media-query`
+/// @group    mixins
+@mixin font-face( $font-family-name, $file-name, $style: '', $weight: '' ) {
+    // $filepath: 'fonts/' + $file-name + '.ttf';
+    $filepath: '"' + $file-name + '.ttf"';
+    @font-face {
+        font-family: '#{$font-family-name}';
+        @if $style != '' {
+            @if $style == 'normal'
+             or $style == 'italic'
+             or $style == 'oblique' { // sass-lint:disable-line brace-style
+                font-style: #{$style};
+            }
+        } @else {
+            font-style: normal;
+        }
+        @if $weight != '' {
+            @if $weight == 100
+             or $weight == 200
+             or $weight == 300
+             or $weight == 400
+             or $weight == 500
+             or $weight == 600
+             or $weight == 700
+             or $weight == 800
+             or $weight == 900
+             or $weight == 'normal'
+             or $weight == 'bold'
+             or $weight == 'lighter'
+             or $weight == 'bolder' { // sass-lint:disable-line brace-style
+                font-weight: #{$weight};
+            }
+        } @else {
+            font-weight: normal;
+        }
+        src: url( $filepath );
+    }
+}

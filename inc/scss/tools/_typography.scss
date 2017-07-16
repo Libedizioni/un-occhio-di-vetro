@@ -1,0 +1,68 @@
+///
+/// Setup Fonts definitions
+///
+
+// --------------------------------------------------------------
+//     FONTS VARIABLES
+// --------------------------------------------------------------
+//
+// Replace them with your custom set as needed.
+//
+// @link https://www.google.com/fonts
+
+/// Default Sans Serif font stack fallback
+/// @access public
+/// @type String
+/// @group typography
+//$sans-serif: ( sans-serif );
+$sans-serif: ( 'Arial', 'Helvetica', 'Helvetica Neue', 'Lucida Grande', 'Trebuchet MS', 'Verdana', sans-serif );
+
+/// Default Serif font stack fallback
+/// @access public
+/// @type String
+/// @group typography
+//$serif:      ( serif );
+$serif:      ( 'Georgia', 'Cambria', 'Palatino', 'Times New Roman', 'Times', serif );
+
+/// Default Monospace font stack fallback
+/// @access public
+/// @type String
+/// @group typography
+$monospace:       ( 'Courier New', 'Lucida Console', 'Monaco', 'Andale Mono', monospace );
+
+/// Default Cursive font stack fallback
+/// @access public
+/// @type string
+/// @group typography
+$cursive: ( 'Comic Sans', 'Comic Sans MS', 'Zapf Chancery', 'Coronetscript', 'Florence', 'Parkavenue', cursive );
+
+
+/// Base paragraph font family
+/// @access public
+/// @type String
+/// @group typography
+$raleway:  'Raleway', $sans-serif;
+/// Base headings font family
+/// @access public
+/// @type String
+/// @group typography
+$josefin:     'Josefin Sans', $sans-serif;
+/// Base monospace font family
+/// @access public
+/// @type String
+/// @group typography
+$sourcecode:    'Source Code Pro', $monospace;
+
+// assign them a semantic name, based on use,
+// and setup a custom icons font
+$base_font:    $raleway;
+$heading_font: $josefin;
+$mono_font:    $sourcecode;
+$small_font:   '';
+
+
+/// Icons Set font family
+/// @access public
+/// @type String
+/// @group typography
+$icon_font: '';

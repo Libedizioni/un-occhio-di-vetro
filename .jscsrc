@@ -1,0 +1,11 @@
+{
+    "preset": "wordpress",
+    "fileExtensions": [ ".js" ],
+    "excludeFiles": [
+        "grunt/*.js",
+        "js/lib/*.js"
+    ],
+    "requireCapitalizedComments": false,
+    "requirePaddingNewLinesBeforeLineComments": false,
+    "disallowMultipleLineBreaks": false
+}

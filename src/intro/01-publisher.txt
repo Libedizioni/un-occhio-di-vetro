@@ -1,0 +1,11 @@
+# PUBLISHER { #publisher .hidden - }
+
+{+MIDDLE+}
+
+{+CENTER+}
+[!["Vai al sito di PUBLISHER"](LOGO)](URL)
+
+[LINK](URL "Vai al sito di PUBLISHER")
+{-CENTER-}
+
+{-MIDDLE-}

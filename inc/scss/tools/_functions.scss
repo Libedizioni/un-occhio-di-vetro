@@ -1,0 +1,122 @@
+////
+/// Sass Functions
+///
+/// For more info on functions, go here:
+/// http://sass-lang.com/documentation/Sass/Script/Functions.html
+/// ----------------------------------------------------------
+////
+
+/// Black
+///
+/// It's essentially a quicker way to write RGBA to darken.
+///
+/// @example scss - Usage
+///          .element {
+///              box-shadow: 0 0 4px black( 0.3 );
+///          }
+/// @example  css - CSS Output
+///          .element {
+///              box-shadow: 0 0 4px rgba( 0, 0, 0, 0.3 );
+///          }
+///
+/// @param {[type]} $opacity [description]
+///
+/// @return {[type]} [description]
+/// @group    functions
+///
+@function black( $opacity ) {
+	@return rgba( 0, 0, 0, $opacity );
+}
+
+/// White
+///
+/// It's essentially a quicker way to write RGBA to lighten.
+///
+/// @example scss - Usage
+///          .element {
+///              box-shadow: 0 0 4px white( 0.3 );
+///          }
+/// @example  css - CSS Output
+///          .element {
+///              box-shadow: 0 0 4px rgba( 255, 255, 255, 0.3 );
+///          }
+///
+/// @param {[type]} $opacity [description]
+///
+/// @return {[type]} [description]
+/// @group    functions
+///
+@function white( $opacity ) {
+	@return rgba( 255, 255, 255, $opacity );
+}
+
+/// Responsive Helper Function
+/// Here's a nice little helper function for calculating target / context
+///
+/// @example scss - Usage
+///          .element {
+///              width: cp( 650px, 1000px );
+///              width: calc-percent( 650px, 1000px );
+///          }
+/// @example  css - CSS Output
+///          .element {
+///              width: 65%;
+///          }
+///
+/// @param {[type]} $target    [description]
+/// @param {[type]} $container [description]
+///
+/// @return {[type]} [description]
+/// @group    functions
+///
+@function calc-percent( $target, $container ) {
+	@return ( $target / $container ) * 100%;
+}
+
+/// [cp description]
+/// %s [description]
+///
+/// @example scss - Usage
+///          .element {
+///              width: cp( 650px, 1000px );
+///              width: calc-percent( 650px, 1000px );
+///          }
+/// @example  css - CSS Output
+///          .element {
+///              width: 65%;
+///          }
+///
+/// @param {Number} $target     desired width of element
+/// @param {Number} $container  total width of its container
+///
+/// @return {Number} width in percentage
+/// @group    functions
+///
+@function cp( $target, $container ) {
+	@return calc-percent( $target, $container );
+}
+
+
+/// Slightly lighten a color by adding white on top of it
+///
+/// @access public
+/// @param {Color}  $color       color to tint
+/// @param {Number} $percentage  percentage of `$color` in returned color
+///
+/// @return {Color}
+/// @group    functions
+@function tint( $color, $percentage ) {
+	@return mix( white, $color, $percentage );
+}
+
+/// Slightly darken a color by adding blabk on top of it
+///
+/// @access public
+/// @param {Color}  $color       color to shade
+/// @param {Number} $percentage  percentage of `$color` in returned color
+///
+/// @return {Color}
+/// @group    functions
+@function shade( $color, $percentage ) {
+	@return mix( black, $color, $percentage );
+}

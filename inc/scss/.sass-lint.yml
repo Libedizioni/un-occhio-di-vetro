@@ -1,0 +1,146 @@
+#   Sample Configs
+#     - https://github.com/sasstools/sass-lint/blob/develop/docs/sass-lint.yml
+#     - https://github.com/sasstools/gulp-sass-lint/blob/master/tests/.sass-lint.yml
+
+#   Sass Lint Rules
+#     - https://github.com/sasstools/sass-lint/tree/develop/docs/rules
+
+# Derived from WebDevStudios wd_s
+#     - https://github.com/WebDevStudios/wd_s/blob/master/.sass-lint.yml
+
+#   Severity
+#     - 0: turns rule off
+#     - 1: set as a warning
+#     - 2: set to error
+
+# Linter Options
+options:
+  # Don't merge default rules
+  merge-default-rules: false
+  # Set the formatter to 'html'
+  formatter: stylish
+# File Options
+files:
+  include: '**/*.s+(a|c)ss'
+
+# Rule Configuration
+rules:
+  # Extends
+  extends-before-mixins: 0
+  extends-before-declarations: 1
+  placeholder-in-extend: 0
+
+  # Mixins
+  mixins-before-declarations:
+    - 1
+    - exclude: ['mq']
+
+  # Line Spacing
+  one-declaration-per-line: 1
+  empty-line-between-blocks: 1
+  single-line-per-selector: 0
+
+  # Disallows
+  no-attribute-selectors: 0
+  no-color-keywords: 1
+  no-color-literals:
+    - 1
+    - allow-rgba: true
+
+  no-css-comments: 0
+  no-debug: 0
+  no-duplicate-properties: 0
+  no-empty-rulesets: 0
+  no-extends: 0
+  no-ids: 0
+  no-important: 0
+  no-invalid-hex: 1
+  no-mergeable-selectors: 0
+  no-misspelled-properties: 1
+  no-qualifying-elements: 0
+  no-trailing-zero: 0
+  no-transition-all: 0
+  no-universal-selectors: 0
+  no-url-protocols: 0
+  no-vendor-prefixes: 0
+  no-warn: 0
+
+  # Nesting
+  force-attribute-nesting: 0
+  force-element-nesting: 0
+  force-pseudo-nesting: 0
+
+  # Name Formats
+  function-name-format: 1
+  mixin-name-format: 0
+  placeholder-name-format: 1
+  variable-name-format:
+    - 0
+    - allow-leading-underscore: false
+  # convention: snakecase
+
+  # Style Guide
+  border-zero: 1
+  brace-style:
+    - 1
+    - style: 1tbs
+    - allow-single-line: false
+  class-name-format:
+    - 1
+    - allow-leading-underscore: false
+  clean-import-paths: 0
+  empty-args: 0
+  hex-length: 1
+  hex-notation:
+    - 1
+    - style: lowercase
+
+  indentation: 0
+  leading-zero:
+    - 0
+    - include: true
+
+  nesting-depth:
+    - 1
+    - max-depth: 5
+
+  property-units:
+    - 1
+    - per-property: { width: ['rem', 'px', 'mm', 'pt'], height: ['rem', 'px', 'mm', 'pt'], margin: ['rem', 'px', 'mm', 'pt'], padding: ['rem', 'px', 'mm', 'pt'] }
+
+  property-sort-order: 0
+  quotes:
+    - 1
+    - style: single
+
+  shorthand-values:
+    - 1
+    - allowed-shorthands:
+        - 1
+        - 2
+
+  url-quotes: 0
+  variable-for-property:
+    - 1
+    - properties: ['color']
+
+  zero-unit: 1
+
+  # Inner Spacing
+  space-after-comma: 1
+  space-before-colon: 1
+  space-after-colon: 1
+  space-before-brace: 1
+  space-before-bang: 1
+  space-after-bang: 1
+  space-around-operator:
+    - 1
+    - include: true
+
+  space-between-parens:
+    - 1
+    - include: true
+
+  # Final Items
+  trailing-semicolon: 1
+  final-newline: 0

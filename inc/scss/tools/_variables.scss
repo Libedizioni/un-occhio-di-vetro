@@ -1,0 +1,41 @@
+////
+/// ---------------------
+/// VARIABLES
+/// ---------------------
+/// Here is where we declare all our variables like fonts,
+/// base values, and defaults.
+////
+
+
+/// Typography
+
+/// Default base font-size
+/// @access public
+/// @type Length
+/// @group typography
+$base_font_size: 1em !global;
+
+/// Default base line-height
+/// @access public
+/// @type Length
+/// @group typography
+$base_line_height: 1.4 !global;
+
+/// Default computed baseline
+///
+/// Here we set the default baseline, as the ratio between
+/// the default font-size and line-height
+/// @access public
+/// @type Length
+/// @group typography
+$baseline: ( $base_font_size * $base_line_height ) !global;
+
+
+/// Default page dimensions
+///
+/// default page dimensions set for Libe books
+/// @access public
+/// @type lenght
+/// @group typography
+$page_width: 120mm !global;
+$page_height: 170mm !global;
