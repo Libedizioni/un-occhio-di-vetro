@@ -1,7 +1,7 @@
 {
   "title": "Ebook Generator",
   "name": "ebook-generator",
-  "version": "0.6.7",
+  "version": "0.6.9",
   "description": "Ebook Generator is a simple starter workflow to generate an ebook in different output formats, starting from one or more .docx files. It takes advantage of Pandoc to convert between file formats, and uses Grunt to perform tasks as well as for compiling assets like css and images used in the ebook.",
   "homepage": "https://github.com/Libedizioni",
   "author": {

@@ -112,6 +112,7 @@ module.exports = {
 	search_replace_intro: {
 		command: [
 			'cd ../<%= book.name %>',
+			// Intro pages | chapters
 			'for file in <%= book.path.intro %>/*.txt ; do cp -f "$file" "${file%.txt}.md" ; done',
 			'sed -i "s|PUBLISHER|<%= book.publisher.name %>|g; \
 					 s|LINK|<%= book.publisher.link %>|g; \
@@ -125,7 +126,9 @@ module.exports = {
 					 s|DESIGN|<%= book.editor.design %>|g; \
 					 s|LAYOUT|<%= book.editor.layout %>|g; \
 					 s|DATE|$(date +\"%Y\")|g; \
-					 s|COPYRIGHT|<%= book.publisher.copyright %>|g" "<%= book.path.intro %>/"*.md'
+					 s|COPYRIGHT|<%= book.publisher.copyright %>|g; \
+					 s|LICENSE|<%= book.publisher.license %>|g; \
+					 s|LEGALCODE|<%= book.publisher.legalcode %>|g" "<%= book.path.intro %>/"*.md'
 		].join(' && ')
 	},
 	/*jshint multistr:false */
