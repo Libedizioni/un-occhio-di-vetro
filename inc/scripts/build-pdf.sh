@@ -64,6 +64,10 @@ build_pdf_calibre() {
     --custom-size 120x170 \
     --preserve-cover-aspect-ratio \
     --base-font-size 10 \
+    --pdf-page-margin-bottom 0 \
+    --pdf-page-margin-left 0 \
+    --pdf-page-margin-right 0 \
+    --pdf-page-margin-top 0 \
     --margin-bottom 20 \
     --margin-left 30 \
     --margin-right 30 \

@@ -1,8 +1,8 @@
 # { #metadati .hidden - }
 
-{+SMALL+}
+<div class="small">
 
-{+COMPACT RIGHT+}
+<div class="compact alignright">
 
 © 2013 - **Susa**
 
@@ -16,7 +16,7 @@ Traduzione: **Roberta Gozzi**
 
 ___
 
-Immagine di copertina: **Chi fa la cover?**
+Immagine di copertina: **Arrate Rodriguez**
 
 Disegno e impaginazione: **Aloña Intxaurrandieta, Marcello Liberato**
 
@@ -26,6 +26,8 @@ Associazione Culturale Libe Edizioni - Roma
 
 BOOK_ISBN
 
-{-COMPACT RIGHT-}
+</div>
 
-{-SMALL-}
+</div>
+
+

@@ -15,7 +15,7 @@
   },
   "editor": {
     "cover": {
-      "name": "Chi fa la cover?",
+      "name": "Arrate Rodriguez",
       "email": "",
       "url": ""
     },
@@ -56,7 +56,7 @@
   },
 
 
-  "version": "0.1.2",
+  "version": "0.1.3",
   "cover": "inc/images/cover.jpg",
   "fonts": "inc/fonts",
   "images": "inc/images",
