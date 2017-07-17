@@ -2,6 +2,9 @@
 #### _changelog & history_
 
 
+**v0.1.4**
+- Mirror updates from ebook-generator issues
+
 **v0.1.3**
 - Update compiled files
 - Add 03-funders to intro files
