@@ -2,6 +2,11 @@
 #### _changelog & history_
 
 
+**v0.2.0**
+- Update Cover.jpg sizes
+- Update cover.jpg
+- Update book .docx source to V2
+
 **v0.1.4**
 - Mirror updates from ebook-generator issues
 

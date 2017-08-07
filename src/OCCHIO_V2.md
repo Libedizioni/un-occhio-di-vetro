@@ -76,7 +76,7 @@ Ho quarantotto anni e, come la maggior parte delle persone, ho dovuto affrontare
 
 #Il prezzo della mia perla {.hidden}
 
-<p class="aligncenter">IL PREZZO DELLA MIA PERLA</p>
+<p class="aligncenter">**IL PREZZO DELLA MIA PERLA**</p>
 
 <br/>
 
@@ -105,7 +105,7 @@ In ogni caso, quando vado a letto con un uomo la prima volta, faccio molta atten
 
 #Mi libereranno dal male {.hidden}
 
-<p class="aligncenter">MI LIBERERANNO DAL MALE</p>
+<p class="aligncenter">**MI LIBERERANNO DAL MALE**</p>
 
 <br/>
 
@@ -146,7 +146,7 @@ Dispongo sul tavolo il quaderno, il dizionario, l'orologio, il telefono e la tis
 
 #Le varianti del dolore {.hidden}
 
-<p class="aligncenter"> LE VARIANTI DEL DOLORE</p>
+<p class="aligncenter">**LE VARIANTI DEL DOLORE**</p>
 
 <br/>
 
@@ -171,7 +171,7 @@ Preferirei non avere un corpo. Il mio corpo è un sacco di rami spezzati. Starei
 
 #Le rayon vert {.hidden}
 
-<p class="aligncenter"> LE RAYON VERT</p>
+<p class="aligncenter">**LE RAYON VERT**</p>
 
 <br/>
 
@@ -196,7 +196,7 @@ Fa caldo, quasi afoso. Dovrei togliere da lì il gabbiano prima che inizi a marc
 
 #Un occhio di vetro è un oggetto {.hidden}
 
-<p class="aligncenter"> UN OCCHIO DI VETRO È UN OGGETTO</p>
+<p class="aligncenter">**UN OCCHIO DI VETRO È UN OGGETTO**</p>
 
 <br/>
 
@@ -219,7 +219,7 @@ Rispetto all'indebolimento della pelle, per evitare che l'occhio mi cadesse, qua
 
 #Della terra e dell’aria {.hidden}
 
-<p class="aligncenter"> DELLA TERRA E DELL’ARIA</p>
+<p class="aligncenter">**DELLA TERRA E DELL’ARIA**</p>
 
 <br/>
 
@@ -246,7 +246,7 @@ All'altro capo di questa corda c'era il digiuno. Un brodo di aglio e prezzemolo 
 
 #Lama a doppio taglio {.hidden}
 
-<p class="aligncenter"> LAMA A DOPPIO TAGLIO</p>
+<p class="aligncenter">**LAMA A DOPPIO TAGLIO**</p>
 
 <br/>
 
@@ -267,7 +267,7 @@ Ho chiesto a M. degli impegni. Ed è così che ho tradito me stessa. Per questo 
 
 #L'importanza dei sogni {.hidden}
 
-<p class="aligncenter"> L'IMPORTANZA DEI SOGNI</p>
+<p class="aligncenter">**L'IMPORTANZA DEI SOGNI**</p>
 
 <br/>
 
@@ -356,7 +356,7 @@ Non mi sembrò sincero (non mi immaginavo M. addolorato senza di me). Mi rattris
 
 #Il fantasma {.hidden}
 
-<p class="aligncenter"> IL FANTASMA</p>
+<p class="aligncenter">**IL FANTASMA**</p>
 
 <br/>
 
@@ -379,7 +379,7 @@ Temi che la ragione ti faccia crac. Perché non puoi parlare con M. di questo po
 
 #La tecnica dell'enucleazione {.hidden}
 
-<p class="aligncenter"> LA TECNICA DELL'ENUCLEAZIONE</p>
+<p class="aligncenter">**LA TECNICA DELL'ENUCLEAZIONE**</p>
 
 <br/>
 
@@ -414,7 +414,7 @@ Io non ho avuto nessuno di questi contrattempi. Allora, quando mi fecero l’enu
 
 #Autoritratto {.hidden}
 
-<p class="aligncenter"> AUTORITRATTO</p>
+<p class="aligncenter">**AUTORITRATTO**</p>
 
 <br/>
 
@@ -463,7 +463,7 @@ Come tutti, ho una personalità dalle caratteristiche contraddittorie, a volte �
 
 #Il mese delle calendule {.hidden}
 
-<p class="aligncenter"> IL MESE DELLE CALENDULE</p>
+<p class="aligncenter">**IL MESE DELLE CALENDULE**</p>
 
 <br/>
 
@@ -502,7 +502,7 @@ Dovrei essere abituata a non avere sempre quello che desidero; ma è impossibile
 
 #Maybe {.hidden}
 
-<p class="aligncenter"> MAYBE</p>
+<p class="aligncenter">**MAYBE**</p>
 
 <br/>
 
@@ -525,7 +525,7 @@ Maybe, Meibi, Meibi, per non reclamare niente, l'alibi. Meabe, amata a metà, la
 
 #L’ombra {.hidden}
 
-<p class="aligncenter"> L'OMBRA</p>
+<p class="aligncenter">**L'OMBRA**</p>
 
 <br/>
 
@@ -546,7 +546,7 @@ Vorrei evocare alcune altre ombre: quella di una pergola di vite, quella dei gam
 
 #Le proprietà del corallo {.hidden}
 
-<p class="aligncenter"> LE PROPRIETÀ DEL CORALLO</p>
+<p class="aligncenter">**LE PROPRIETÀ DEL CORALLO**</p>
 
 <br/>
 
@@ -567,7 +567,7 @@ Durante il giorno la lubrificazione è indispensabile. Come abitudine porto semp
 
 #Vino bianco {.hidden}
 
-<p class="aligncenter"> VINO BIANCO</p>
+<p class="aligncenter">**VINO BIANCO**</p>
 
 <br/>
 
@@ -660,7 +660,7 @@ Faccio cenno di sì con la testa. Quando se ne va, corro dentro casa, a vomitare
 
 #Un bacio sulla spalla {.hidden}
 
-<p class="aligncenter"> UN BACIO SULLA SPALLA</p>
+<p class="aligncenter">**UN BACIO SULLA SPALLA**</p>
 
 <br/>
 
@@ -697,9 +697,13 @@ M. non è per me. M. non è fatto per me. Non si può domare l'inclinazione natu
 
 #Vuoti ma palpitanti {.hidden}
 
-<p class="aligncenter"> VUOTI MA PALPITANTI</p>
+<p class="aligncenter">**VUOTI MA PALPITANTI**</p>
 
-Metto alla prova la mia resistenza al dolore. Lo faccio rimanendo qui e scrivendo quello che scrivo.
+<br/>
+
+<br/>
+
+<p class="linepull"> Metto alla prova la mia resistenza al dolore. Lo faccio rimanendo qui e scrivendo quello che scrivo.</p>
 
 Ma la realtà, non essendo astratta, mi risulta asfissiante come un tombino.
 
@@ -720,7 +724,7 @@ Sì.
 
 #7 ottobre {.hidden}
 
-<p class="aligncenter"> 7 OTTOBRE</p>
+<p class="aligncenter">**7 OTTOBRE**</p>
 
 <br/>
 
@@ -755,9 +759,7 @@ Stasera mi ha chiamato M., una mezza chiamata. Non mi ha dato il tempo di rispon
 
 #Effetti dermici: la conchiglia e la rete {.hidden}
 
-<p class="aligncenter"> EFFETTI DERMICI:</p>
-
-LA CONCHIGLIA E LA RETE
+<p class="aligncenter">**EFFETTI DERMICI: LA CONCHIGLIA E LA RETE**</p>
 
 <br/>
 
@@ -774,7 +776,7 @@ Attualmente non si può dire che io sia restia ad analizzare i miei occhi e il l
 
 #Sull'età pericolosa {.hidden}
 
-<p class="aligncenter"> SULL'ETÀ PERICOLOSA</p>
+<p class="aligncenter">**SULL'ETÀ PERICOLOSA**</p>
 
 <br/>
 
@@ -817,9 +819,7 @@ Succede che si vuole trovare un soffio di allegria non solo nel rifugio della so
 
 #Come una mammografia diede origine a un’allegoria {.hidden}
 
-<p class="aligncenter"> COME UNA MAMMOGRAFIA</p>
-
-**DIEDE ORIGINE A UN’ALLEGORIA**
+<p class="aligncenter">**COME UNA MAMMOGRAFIA DIEDE ORIGINE A UN’ALLEGORIA**</p>
 
 <br/>
 
@@ -862,7 +862,7 @@ Credo che abbiamo avuto fortuna quando i nostri bastoni da cieco hanno iniziato 
 
 #Teoria della scatola di formaggini {.hidden}
 
-<p class="aligncenter"> TEORIA DELLA SCATOLA DI FORMAGGINI</p>
+<p class="aligncenter">**TEORIA DELLA SCATOLA DI FORMAGGINI**</p>
 
 <br/>
 
@@ -897,7 +897,7 @@ Carolyn G. Heilbrun lo spiega così nel suo saggio *Scrivere la vita di una donn
 
 #Cause di perdita oculare {.hidden}
 
-<p class="aligncenter"> CAUSE DI PERDITA OCULARE</p>
+<p class="aligncenter">**CAUSE DI PERDITA OCULARE**</p>
 
 <br/>
 
@@ -924,7 +924,7 @@ La sala d'aspetto dell'ocularista è sempre piena di cifre inesatte. E quando si
 
 #Lettera {.hidden}
 
-<p class="aligncenter"> LETTERA</p>
+<p class="aligncenter">**LETTERA**</p>
 
 <br/>
 
@@ -969,7 +969,7 @@ Brucio la lettera. Non prima di averla copiata: sono posseduta dalla maledizione
 
 #Animation gasconne {.hidden}
 
-<p class="aligncenter"> ANIMATION GASCONNE</p>
+<p class="aligncenter">**ANIMATION GASCONNE**</p>
 
 <br/>
 
@@ -1000,7 +1000,7 @@ C'è un piccolo hotel, accogliente. Mi è sempre piaciuto, fin dalla prima volta
 
 #Un occhio di vetro è anche una metafora {.hidden}
 
-<p class="aligncenter"> **UN OCCHIO DI VETRO È ANCHE UNA METAFORA**</p>
+<p class="aligncenter">**UN OCCHIO DI VETRO È ANCHE UNA METAFORA**</p>
 
 <br/>
 
@@ -1051,7 +1051,7 @@ Non so dove mi porterà questo esperimento iniziato il 9 settembre del 2011, non
 
 #La tentazione del plus {.hidden}
 
-<p class="aligncenter"> **LA TENTAZIONE DEL PLUS**</p>
+<p class="aligncenter">**LA TENTAZIONE DEL PLUS**</p>
 
 <br/>
 
@@ -1120,7 +1120,7 @@ Ci salutiamo. Mi guardo attorno. Poi osservo di nuovo i miei piedi. Sono gelati.
 
 #In trappola {.hidden}
 
-<p class="aligncenter"> **IN TRAPPOLA**</p>
+<p class="aligncenter">**IN TRAPPOLA**</p>
 
 <br/>
 
@@ -1138,7 +1138,7 @@ Non ti sembra credibile tanta sofferenza? In realtà commettiamo stravaganze di 
 
 #Na nga def, xarit? {.hidden}
 
-<p class="aligncenter"> NA NGA DEF, XARIT?</p>
+<p class="aligncenter">**NA NGA DEF, XARIT?**</p>
 
 <br/>
 
@@ -1165,7 +1165,7 @@ Gli ho comprato dei calzini, per mio figlio. E un braccialetto, una bigiotteria 
 
 #Breve storia dell'ocularistica {.hidden}
 
-<p class="aligncenter"> **BREVE STORIA DELL'OCULARISTICA**</p>
+<p class="aligncenter">**BREVE STORIA DELL'OCULARISTICA**</p>
 
 <br/>
 
@@ -1186,7 +1186,7 @@ Nel XX secolo, invece, dopo la Seconda Guerra Mondiale, gli Stati Uniti si impos
 
 #Lo specchio {.hidden}
 
-<p class="aligncenter"> LO SPECCHIO</p>
+<p class="aligncenter">**LO SPECCHIO**</p>
 
 <br/>
 
@@ -1225,7 +1225,7 @@ La tecnica del patchwork consiste nell'unire pezzetti diversi; non va confuso co
 
 #Occhi di vetro in caso di patologie congenite {.hidden}
 
-<p class="aligncenter"> **OCCHI DI VETRO IN CASO DI PATOLOGIE CONGENITE**</p>
+<p class="aligncenter">**OCCHI DI VETRO IN CASO DI PATOLOGIE CONGENITE**</p>
 
 <br/>
 
@@ -1250,7 +1250,7 @@ La microftalmia e la nanoftalmia, malformazioni congenite, colpiscono un bambino
 
 #Colei che non mi abbandona mai {.hidden}
 
-<p class="aligncenter"> **COLEI CHE NON MI ABBANDONA MAI**</p>
+<p class="aligncenter">**COLEI CHE NON MI ABBANDONA MAI**</p>
 
 <br/>
 
@@ -1317,7 +1317,7 @@ Se offri un dito a un bebè, lo afferrerà, perché per lui quel pezzo di carne 
 
 #Cicatrici e altre cose {.hidden}
 
-<p class="aligncenter"> **CICATRICI E ALTRE COSE**</p>
+<p class="aligncenter">**CICATRICI E ALTRE COSE**</p>
 
 <br/>
 
@@ -1362,7 +1362,7 @@ Questi sono, tra gli altri, i miei metodi segreti per praticare l'occhio per occ
 
 #Uccelli, freddo e ali spezzate {.hidden}
 
-<p class="aligncenter"> UCCELLI, FREDDO E ALI SPEZZATE</p>
+<p class="aligncenter">**UCCELLI, FREDDO E ALI SPEZZATE**</p>
 
 <br/>
 
@@ -1447,7 +1447,7 @@ Arrivo in ospedale alle due di notte. Mio padre ha un braccio rotto, ma la cosa 
 
 #Monoftalmia e vita quotidiana {.hidden}
 
-<p class="aligncenter"> monospaceFTALMIA E VITA QUOTIDIANA</p>
+<p class="aligncenter">**monospaceFTALMIA E VITA QUOTIDIANA**</p>
 
 <br/>
 
@@ -1478,7 +1478,7 @@ Chi ha un occhio di vetro non può mantenere l'asse dei due occhi nello stesso p
 
 #Affilare, accordare {.hidden}
 
-<p class="aligncenter"> AFFILARE, ACCORDARE</p>
+<p class="aligncenter">**AFFILARE, ACCORDARE**</p>
 
 <br/>
 
@@ -1553,7 +1553,7 @@ Soffia vento del sud. Anche se la stanchezza mi distrugge gli occhi, dal faro di
 
 #Una goccia di veleno {.hidden}
 
-<p class="aligncenter"> UNA GOCCIA DI VELENO</p>
+<p class="aligncenter">**UNA GOCCIA DI VELENO**</p>
 
 <br/>
 
@@ -1610,7 +1610,7 @@ La delusione affiora sulle guance di M..
 
 #Trompe l’oeil {.hidden}
 
-<p class="aligncenter"> TROMPE L’OEIL</p>
+<p class="aligncenter">**TROMPE L’OEIL**</p>
 
 <br/>
 
@@ -1667,7 +1667,7 @@ Tutto quello che si sono reciprocamente dati sembrerà loro il tetto rosso di un
 
 #Gli occhi delle morte {.hidden}
 
-<p class="aligncenter"> GLI OCCHI DELLE MORTE</p>
+<p class="aligncenter">**GLI OCCHI DELLE MORTE**</p>
 
 <br/>
 
@@ -1728,9 +1728,7 @@ Le donne di casa mia non vollero vivere sole, non cercarono di cambiare, non ebb
 
 #L'occhio di vetro, un topico {.hidden}
 
-<p class="aligncenter"> L'OCCHIO DI VETRO,</p>
-
-UN TOPICO
+<p class="aligncenter">**L'OCCHIO DI VETRO, UN TOPICO**</p>
 
 <br/>
 
@@ -1759,7 +1757,7 @@ La partitura gli dà un tocco ottocentesco, peccato, perché questo è un testo 
 
 #One star {.hidden}
 
-<p class="aligncenter"> ONE STAR</p>
+<p class="aligncenter">**ONE STAR**</p>
 
 <br/>
 
@@ -1798,7 +1796,7 @@ Sono venuta nell'orto per portarci Janis. Nell'aprire la gabbia l'uccellino si p
 
 #I bei momenti buoni {.hidden}
 
-<p class="aligncenter"> I BEI MOMENTI BUONI</p>
+<p class="aligncenter">**I BEI MOMENTI BUONI**</p>
 
 <br/>
 
@@ -1855,7 +1853,7 @@ Lasciati i miei vecchi in buone mani e fatta visita alle mie morte, torno nella 
 
 #Souvenir di lekeitio {.hidden}
 
-<p class="aligncenter"> SOUVENIR DI LEKEITIO</p>
+<p class="aligncenter">**SOUVENIR DI LEKEITIO**</p>
 
 <br/>
 
@@ -1880,7 +1878,7 @@ Mi sono stupita quando, a metà pomeriggio, hanno chiamato alla porta. Era un co
 
 #Natura morta {.hidden}
 
-<p class="aligncenter"> NATURA MORTA</p>
+<p class="aligncenter">**NATURA MORTA**</p>
 
 <br/>
 
@@ -2029,7 +2027,7 @@ L'ombra non permette di cogliere tutti i dettagli.
 
 #Vite o asse {.hidden}
 
-<p class="aligncenter"> VITE O ASSE</p>
+<p class="aligncenter">**VITE O ASSE**</p>
 
 <br/>
 
@@ -2052,7 +2050,7 @@ Mi dirai che l'amore è una vite della macchina che siamo e non l'asse. Ti rispo
 
 #Ma non ho amore... {.hidden}
 
-<p class="aligncenter"> MA NON HO AMORE...</p>
+<p class="aligncenter">**MA NON HO AMORE...**</p>
 
 <br/>
 
@@ -2077,7 +2075,7 @@ Ma, cosa dico? Se lo sono sempre stata! Ho scritto in modo compulsivo da quando 
 
 #La protesi oculare, un'opera artigianale {.hidden}
 
-<p class="aligncenter"> LA PROTESI OCULARE, UN'OPERA ARTIGIANALE</p>
+<p class="aligncenter">**LA PROTESI OCULARE, UN'OPERA ARTIGIANALE**</p>
 
 <br/>
 
@@ -2100,7 +2098,7 @@ Per ultimo, si ricopre con una resina plastica il calco previamente dipinto e, *
 
 #Per concludere {.hidden}
 
-<p class="aligncenter"> PER CONCLUDERE</p>
+<p class="aligncenter">**PER CONCLUDERE**</p>
 
 <br/>
 
