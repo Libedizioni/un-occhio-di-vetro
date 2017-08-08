@@ -1894,9 +1894,10 @@ Per quanto riguarda ciò che può nascere da un amore morto, hai tra le mani il 
 
 Così da un quadro è nata una poesia. Ecco la catena della creazione che dà luogo alla creazione.
 
-<br/>
+\newpage
+<div class="breakpage"></div>
 
-<p class="linepull"> La luce non proviene da una fonte precisa, da un angolo, dall'alto.</p>
+<div class="citation"> La luce non proviene da una fonte precisa, da un angolo, dall'alto.
 
 La luce sorge dalle immagini del quadro.
 
@@ -2021,6 +2022,8 @@ La luce, un pennello. L'ombra, la sua paletta. La parola, il mio occhio mobile.
 L'ombra attrae a sé come una calamita le immagini del mondo.
 
 L'ombra non permette di cogliere tutti i dettagli.
+
+</div>
 
 \newpage
 <div class="breakpage"></div>

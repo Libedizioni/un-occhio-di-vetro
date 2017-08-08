@@ -2,6 +2,10 @@
 #### _changelog & history_
 
 
+**v0.2.1**
+- Add .citation section in chapter "Natura Morta"
+- Add overrides for default .citation styles
+
 **v0.2.0**
 - Update Cover.jpg sizes
 - Update cover.jpg

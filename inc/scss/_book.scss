@@ -1,3 +1,20 @@
 /**
  * Book custom styles
  */
+
+/* Add overrides for default .citation styles */
+.citation {
+	font-weight: 600;
+	font-size: 1em;
+	margin-left: 3%;
+	margin-right: 7%;
+	padding-left: 5%;
+	padding-top: .5em;
+
+	p {
+		color: $dark_gray;
+		text-indent: 0;
+		line-height: 1;
+		margin-bottom: .5em;
+	}
+}
