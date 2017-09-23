@@ -15,6 +15,8 @@
 \newpage
 <div class="breakpage"></div>
 
+<div class="condensed">
+
 *L’occhio non è un minatore, dice Virginia Woolf,*
 
 *né un sommozzatore, e nemmeno qualcuno che cerca un tesoro nascosto.*
@@ -44,6 +46,8 @@
 *o anche contro di essi...*
 
 <p class="alignright"> <span style="font-variant:small-caps;">J.M. Coetzee</span></p>
+
+<span style="font-variant:small-caps;"></div></span>
 
 #Preliminari { .hidden }
 
@@ -171,7 +175,7 @@ Preferirei non avere un corpo. Il mio corpo è un sacco di rami spezzati. Starei
 
 #Le rayon vert {.hidden}
 
-<p class="aligncenter">**LE RAYON VERT**</p>
+<p class="aligncenter">***LE RAYON VERT***</p>
 
 <br/>
 
@@ -502,7 +506,7 @@ Dovrei essere abituata a non avere sempre quello che desidero; ma è impossibile
 
 #Maybe {.hidden}
 
-<p class="aligncenter">**MAYBE**</p>
+<p class="aligncenter">***MAYBE***</p>
 
 <br/>
 
@@ -969,7 +973,7 @@ Brucio la lettera. Non prima di averla copiata: sono posseduta dalla maledizione
 
 #Animation gasconne {.hidden}
 
-<p class="aligncenter">**ANIMATION GASCONNE**</p>
+<p class="aligncenter">***ANIMATION GASCONNE***</p>
 
 <br/>
 
@@ -1138,7 +1142,7 @@ Non ti sembra credibile tanta sofferenza? In realtà commettiamo stravaganze di 
 
 #Na nga def, xarit? {.hidden}
 
-<p class="aligncenter">**NA NGA DEF, XARIT?**</p>
+<p class="aligncenter">***NA NGA DEF, XARIT?***</p>
 
 <br/>
 
@@ -1610,7 +1614,7 @@ La delusione affiora sulle guance di M..
 
 #Trompe l’oeil {.hidden}
 
-<p class="aligncenter">**TROMPE L’OEIL**</p>
+<p class="aligncenter">***TROMPE L’OEIL***</p>
 
 <br/>
 
@@ -1757,7 +1761,7 @@ La partitura gli dà un tocco ottocentesco, peccato, perché questo è un testo 
 
 #One star {.hidden}
 
-<p class="aligncenter">**ONE STAR**</p>
+<p class="aligncenter">***ONE STAR***</p>
 
 <br/>
 
