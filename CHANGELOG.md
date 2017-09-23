@@ -2,6 +2,10 @@
 #### _changelog & history_
 
 
+**v0.2.2**
+- Update docx to V3 & fix formatting issues
+- Add ISBN for epub & pdf format
+
 **v0.2.1**
 - Add .citation section in chapter "Natura Morta"
 - Add overrides for default .citation styles
