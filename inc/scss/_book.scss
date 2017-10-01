@@ -2,7 +2,7 @@
  * Book custom styles
  */
 
-/* Add overrides for default .citation styles */
+/* Add overrides to default .citation styles */
 .citation {
 	font-weight: 600;
 	font-size: 1em;
@@ -17,4 +17,19 @@
 		line-height: 1;
 		margin-bottom: .5em;
 	}
+}
+
+/* Add overrides to default .condensed styles */
+.condensed {
+
+	margin-top: 3em;
+
+    p {
+        font-family: $small_font;
+        font-size: .83em;
+        font-weight: 300;
+        text-indent: 0;
+        line-height: 1.6em;
+        letter-spacing: -.1pt;
+    }
 }
