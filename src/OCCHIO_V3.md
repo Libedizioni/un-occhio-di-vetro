@@ -47,7 +47,7 @@
 
 <p class="alignright"> <span style="font-variant:small-caps;">J.M. Coetzee</span></p>
 
-<span style="font-variant:small-caps;"></div></span>
+</div>
 
 #Preliminari { .hidden }
 
@@ -353,7 +353,7 @@ Non mi sembrò sincero (non mi immaginavo M. addolorato senza di me). Mi rattris
 
 <br/>
 
-<p class="linepull"> <p class="ITALIC"> *Elementi da sviluppare: a) Parlare con più precisione della gerarchia dei sentimenti, cioè della situazione di inferiorità che si (auto)assegna il soggetto più appassionato quando l'altro non risponde alle sue aspettative. b) Citare gli altri motivi che mi hanno portato a rompere con M., il suo individualismo quando si trattava di organizzare il tempo libero, la sua tendenza abusiva a usarmi come il suo fazzoletto per asciugarsi le lacrime... c) Chiarire se è del tutto vero che sia stata io a lasciarlo, o se fosse il desiderio di entrambi, indirettamente (sono stata io a determinare la rottura, ma se non avessi detto niente, che passi avrebbe dato lui? Forse nella stessa direzione, impossibile saperlo). Quanto orgoglio c'è dietro il mio ampolloso «Ho lasciato M.»? Non sarà che la dignità mi ha fatto fare un passo falso per evitare i miei altri conflitti interiori?*</p>
+<p class="linepull"> *Elementi da sviluppare: a) Parlare con più precisione della gerarchia dei sentimenti, cioè della situazione di inferiorità che si (auto)assegna il soggetto più appassionato quando l'altro non risponde alle sue aspettative. b) Citare gli altri motivi che mi hanno portato a rompere con M., il suo individualismo quando si trattava di organizzare il tempo libero, la sua tendenza abusiva a usarmi come il suo fazzoletto per asciugarsi le lacrime... c) Chiarire se è del tutto vero che sia stata io a lasciarlo, o se fosse il desiderio di entrambi, indirettamente (sono stata io a determinare la rottura, ma se non avessi detto niente, che passi avrebbe dato lui? Forse nella stessa direzione, impossibile saperlo). Quanto orgoglio c'è dietro il mio ampolloso «Ho lasciato M.»? Non sarà che la dignità mi ha fatto fare un passo falso per evitare i miei altri conflitti interiori?*</p>
 
 \newpage
 <div class="breakpage"></div>
@@ -460,7 +460,7 @@ Come tutti, ho una personalità dalle caratteristiche contraddittorie, a volte �
 
 <br/>
 
-<p class="linepull"> <p class="ITALIC"> *Da menzionare: a) La vanità, o necessità di una dose di adulazione ogni tanto; il piacere e la sicurezza che mi dà la benedizione altrui. b) La relazione fra l'idea che ho di me stessa – autopercezione – e la valutazione che gli altri fanno di me.*</p>
+<p class="linepull"> *Da menzionare: a) La vanità, o necessità di una dose di adulazione ogni tanto; il piacere e la sicurezza che mi dà la benedizione altrui. b) La relazione fra l'idea che ho di me stessa – autopercezione – e la valutazione che gli altri fanno di me.*</p>
 
 \newpage
 <div class="breakpage"></div>
@@ -694,7 +694,7 @@ M. non è per me. M. non è fatto per me. Non si può domare l'inclinazione natu
 
 <br/>
 
-<p class="linepull"> <p class="ITALIC"> *Da rivedere: a) Togliere i dettagli che potrebbero pregiudicare la buona immagine di M.. b) Sottolineare che l'interesse per M. non era solo sessuale in senso stretto: mi imprigionarono la sua personalità, la sua abilità per spiegarmi cose lontane dai miei campi d’interesse, il modo di affrontare la vita quotidiana e la sua visione della società.*</p>
+<p class="linepull"> *Da rivedere: a) Togliere i dettagli che potrebbero pregiudicare la buona immagine di M.. b) Sottolineare che l'interesse per M. non era solo sessuale in senso stretto: mi imprigionarono la sua personalità, la sua abilità per spiegarmi cose lontane dai miei campi d’interesse, il modo di affrontare la vita quotidiana e la sua visione della società.*</p>
 
 \newpage
 <div class="breakpage"></div>
@@ -1042,13 +1042,13 @@ Non so dove mi porterà questo esperimento iniziato il 9 settembre del 2011, non
 
 <br/>
 
-<p class="linepull"> <div class="ITALIC"> *Un dato da tenere in considerazione: ho parlato con quell'editore poco fa. Gli ho spiegato sommariamente l'argomento: «L'asse è una passione rotta e l'occhio di vetro un simbolo. Lo sai, è una delle mie caratteristiche, che rappresenterà le mie lacerazioni. Ci metto anche questioni legate all'età».*</p>
+<p class="linepull">*Un dato da tenere in considerazione: ho parlato con quell'editore poco fa. Gli ho spiegato sommariamente l'argomento: «L'asse è una passione rotta e l'occhio di vetro un simbolo. Lo sai, è una delle mie caratteristiche, che rappresenterà le mie lacerazioni. Ci metto anche questioni legate all'età».*</p>
 
 *La sua risposta mi ha delusa: «Quindi hai scritto di una vecchia?». Ho sentito il desiderio di mandarlo a quel paese, per l'incredibile fatica che mi ha causato quel punto di vista così rachitico. Non era ironico, e nemmeno voleva provocarmi, come fa sempre. Ha svalutato con uno spontaneo pregiudizio il presunto percorso del mio personaggio e i suoi conflitti.*
 
 *Forse il destino di questo testo sarà un cassetto. O un cestino: materiale che bisogna eliminare in quanto rifiuto, risultato del nostro “fare” il cui valore è nullo.*
 
-*Tuttavia, darò un seguito a ciò che ho iniziato.* </div>
+*Tuttavia, darò un seguito a ciò che ho iniziato.*
 
 \newpage
 <div class="breakpage"></div>
@@ -1312,9 +1312,9 @@ Se offri un dito a un bebè, lo afferrerà, perché per lui quel pezzo di carne 
 
 <br/>
 
-<p class="linepull"> <div class="ITALIC"> *Domande: I riferimenti a mia madre sono sufficienti a dimostrare che è stata un modello di donna nell'insegnarmi che la perseveranza è la qualità principale per cancellare la frontiera fra la debolezza e la forza?*</p>
+<p class="linepull">*Domande: I riferimenti a mia madre sono sufficienti a dimostrare che è stata un modello di donna nell'insegnarmi che la perseveranza è la qualità principale per cancellare la frontiera fra la debolezza e la forza?*</p>
 
-*«La madre» è un tema ricorrente nella mia opera. La pubblicazione di questo testo può dare l'impressione di essere un facile dejà-vu, o un'ossessione, il riflesso di un vuoto incolmabile. Non credo si tratti di questo. In fin dei conti, sembra che non tagliare questo cordone ombelicale psicologico sia un modo per confortarmi.* </div>
+*«La madre» è un tema ricorrente nella mia opera. La pubblicazione di questo testo può dare l'impressione di essere un facile dejà-vu, o un'ossessione, il riflesso di un vuoto incolmabile. Non credo si tratti di questo. In fin dei conti, sembra che non tagliare questo cordone ombelicale psicologico sia un modo per confortarmi.*
 
 \newpage
 <div class="breakpage"></div>
@@ -1451,7 +1451,11 @@ Arrivo in ospedale alle due di notte. Mio padre ha un braccio rotto, ma la cosa 
 
 #Monoftalmia e vita quotidiana {.hidden}
 
-<p class="aligncenter">**monospaceFTALMIA E VITA QUOTIDIANA**</p>
+<div class="aligncenter">
+
+**MONOFTALMIA E VITA QUOTIDIANA**
+
+</div>
 
 <br/>
 
@@ -1603,11 +1607,11 @@ La delusione affiora sulle guance di M..
 
 <br/>
 
-<p class="linepull"> <div class="ITALIC">*Nota: In questo periodo è aumentata la disoccupazione. La crisi che i media continuano a strombazzare porta la gente a chiudere il pugno per non lasciarsi scappare i soldi dalle tasche, mentre molta altra gente si raduna all'esterno degli ipermercati per recuperare cibo dai cassonetti. Secondo le ONG, non ci sono abbastanza risorse, neanche lontanamente, per rispondere alle richieste della fila di persone in cerca di aiuto. Ci sono famiglie che si sono riunite attorno ai nonni, le cui pensioni sono l'unica fonte di entrate.*</p>
+<p class="linepull">*Nota: In questo periodo è aumentata la disoccupazione. La crisi che i media continuano a strombazzare porta la gente a chiudere il pugno per non lasciarsi scappare i soldi dalle tasche, mentre molta altra gente si raduna all'esterno degli ipermercati per recuperare cibo dai cassonetti. Secondo le ONG, non ci sono abbastanza risorse, neanche lontanamente, per rispondere alle richieste della fila di persone in cerca di aiuto. Ci sono famiglie che si sono riunite attorno ai nonni, le cui pensioni sono l'unica fonte di entrate.*</p>
 
 *L'epicentro della crisi è una finzione politica, una programmata bolla tossica inventata dalle entità finanziarie. Quando mai il capitale è stato disposto a perdere il controllo? Vaffanculo.*
 
-*Non accenno a questo a causa di un improvviso attacco di impegno che mi obbliga a denunciare questa società inquinata (che sarebbe pura demagogia, considerando il mio stile di vita), ma perché mi vergogno che l'immutabile centro di gravità di questo scritto sia la mia passione, giorno dopo giorno. In qualche modo, mi sento sporca per essere così egoista. Accetti le mie scuse? Se la risposta è no, non passare alla pagina seguente. Mandami al diavolo.* </div>
+*Non accenno a questo a causa di un improvviso attacco di impegno che mi obbliga a denunciare questa società inquinata (che sarebbe pura demagogia, considerando il mio stile di vita), ma perché mi vergogno che l'immutabile centro di gravità di questo scritto sia la mia passione, giorno dopo giorno. In qualche modo, mi sento sporca per essere così egoista. Accetti le mie scuse? Se la risposta è no, non passare alla pagina seguente. Mandami al diavolo.*
 
 \newpage
 <div class="breakpage"></div>
@@ -1713,7 +1717,7 @@ Le donne di casa mia non vollero vivere sole, non cercarono di cambiare, non ebb
 
 <br/>
 
-<p class="linepull"> <div class="ITALIC"> *Punti deboli:*</p>
+<p class="linepull">*Punti deboli:*</p>
 
 *1) Troppi vocaboli semanticamente legati alla Chiesa: sagrestano, benedetto, martire, croce, tomba...*
 
@@ -1725,7 +1729,7 @@ Le donne di casa mia non vollero vivere sole, non cercarono di cambiare, non ebb
 
 *4) La scena dell'isola (capitolo precedente) e quella del cimitero cozzano una con l'altra.*
 
-*Lasciarle così come sono. Alla fine, è così che sono successe le cose. Mi reco spesso sia in un luogo che nell'altro, a volte anche nello stesso giorno.* </div>
+*Lasciarle così come sono. Alla fine, è così che sono successe le cose. Mi reco spesso sia in un luogo che nell'altro, a volte anche nello stesso giorno.*
 
 \newpage
 <div class="breakpage"></div>
