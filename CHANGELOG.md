@@ -2,6 +2,13 @@
 #### _changelog & history_
 
 
+**v0.2.3**
+- Remove wrong docx tags, validate epub
+- Fix MONOSPACE docx tag causing parsing error
+- Fix description parsing error
+- Update book description (abstract)
+- Add book override for initial .condensed styles
+
 **v0.2.2**
 - Update docx to V3 & fix formatting issues
 - Add ISBN for epub & pdf format
